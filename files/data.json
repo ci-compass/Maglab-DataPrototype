@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dcterms": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "soso": "https://github.com/ci-compass/science-on-schema.org"
+  },
+  "@id": "https://example.com/datasets/dmitry-smirnov",
+  "@type": "schema:Dataset",
+  "dcterms:creator": "Dmitry Smirnov",
+  "dcterms:title": "Dmitry Smirnov's Data Acquisition Info",
+  "soso:instrument": {
+    "@type": "schema:Text",
+    "@value": "HRS750"
+  },
+  "soso:magnetSystem": {
+    "@type": "schema:Text",
+    "@value": "SCM3"
+  },
+  "soso:experimentType": {
+    "@type": "schema:Text",
+    "@value": "PL"
+  },
+  "soso:sampleShortName": {
+    "@type": "schema:Text",
+    "@value": "WSe2-MoSe2"
+  },
+  "soso:magneticField": {
+    "@type": "schema:Float",
+    "@value": 0.0
+  },
+  "soso:temperature": {
+    "@type": "schema:Float",
+    "@value": 10.0
+  },
+  "soso:lightSource": {
+    "@type": "schema:Text",
+    "@value": "633nm-100uW"
+  },
+  "soso:centralFrequency": {
+    "@type": "schema:Float",
+    "@value": 720.0
+  },
+  "soso:slit": {
+    "@type": "schema:Float",
+    "@value": 30.0
+  },
+  "soso:acquisitionTime": {
+    "@type": "schema:Float",
+    "@value": 2.0
+  },
+  "soso:objectiveNA": {
+    "@type": "schema:Float",
+    "@value": 0.65
+  },
+  "soso:Owner": [
+    {
+      "@type": "schema:Person",
+      "schema:name": "Jane Doe",
+      "schema:email": "janedoe@example.com",
+      "soso:ownerIdentifier": {
+        "@type": "schema:URL",
+        "@id": "https://orcid.org/0000-0000-XXXX-XXXX"
+      }
+    },
+    {
+      "@type": "schema:Organization",
+      "schema:name": "National High Magnetic Field Laboratory",
+      "schema:email": "janedoe@example.com",
+      "soso:ownerIdentifier": {
+        "@type": "schema:URL",
+        "@id": "https://ror.org/03s53g630"
+      }
+    }
+  ],
+  "soso:Manufacturer": [
+    {
+      "@type": "schema:Organization",
+      "schema:name": "Princeton Instruments",
+      "soso:manufacturerIdentifier": {
+        "@type": "schema:Text",
+        "@value": "example-manufacturer-123"
+      }
+    }
+  ],
+  "schema:Description": "This is an example instrument.",
+  "soso:SchemaVersion": "1.0",
+  "soso:LandingPage": {
+    "@type": "schema:URL",
+    "@id": "https://nationalmaglab.org/research/research-groups/condensed-matter-science/instruments/"
+  }
+}
