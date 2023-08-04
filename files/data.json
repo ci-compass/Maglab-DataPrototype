@@ -65,7 +65,7 @@
     {
       "@type": "schema:Organization",
       "schema:name": "National High Magnetic Field Laboratory",
-      "schema:email": "josiahcarberry@example.com",
+      "schema:email": "frontdesk@magnet.fsu.edu",
       "schema:phone": "(850) 644-0311",
       "soso:ownerIdentifier": {
         "@type": "schema:URL",
