@@ -4,10 +4,10 @@
     "schema": "http://schema.org/",
     "soso": "https://github.com/ci-compass/science-on-schema.org"
   },
-  "@id": "https://example.com/datasets/dmitry-smirnov",
+  "@id": "https://example.com/datasets/MagLab",
   "@type": "schema:Dataset",
-  "dcterms:creator": "Dmitry Smirnov",
-  "dcterms:title": "Dmitry Smirnov's Data Acquisition Info",
+  "dcterms:creator": "National High Magnetic Field Laboratory",
+  "dcterms:title": "MagLab's Data Acquisition Info",
   "soso:instrument": {
     "@type": "schema:Text",
     "@value": "HRS750"
@@ -55,17 +55,18 @@
   "soso:Owner": [
     {
       "@type": "schema:Person",
-      "schema:name": "Jane Doe",
-      "schema:email": "janedoe@example.com",
+      "schema:name": "Josiah Carberry",
+      "schema:email": "josiahcarberry@example.com",
       "soso:ownerIdentifier": {
         "@type": "schema:URL",
-        "@id": "https://orcid.org/0000-0000-XXXX-XXXX"
+        "@id": "https://orcid.org/0000-0002-1825-0097"
       }
     },
     {
       "@type": "schema:Organization",
       "schema:name": "National High Magnetic Field Laboratory",
-      "schema:email": "janedoe@example.com",
+      "schema:email": "josiahcarberry@example.com",
+      "schema:phone": "(850) 644-0311",
       "soso:ownerIdentifier": {
         "@type": "schema:URL",
         "@id": "https://ror.org/03s53g630"
