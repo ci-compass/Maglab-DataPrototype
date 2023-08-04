@@ -75,7 +75,7 @@
   ],
   "soso:Manufacturer": [
     {
-      "@type": "schema:Organization",
+      "@type": "schema:Manufacturer",
       "schema:name": "Princeton Instruments",
       "soso:manufacturerIdentifier": {
         "@type": "schema:Text",
